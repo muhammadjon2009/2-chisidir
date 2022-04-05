@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    transition: 0.5s;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+.big_container{
+    background-image: url(./img.png);
+    background-repeat: no-repeat;
+    height: 355px;
+    width: 100%;
+}
+
+nav{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+
+nav>p{
+    padding-left: 60px;
+    color: white;
+    font-size: 40px;
+}
+
+nav>p>span{
+    color: #1280d9;
+}
+
+ul{  
+    padding-right: 30px;
+    display: flex;
+    list-style-type: none;
+}
+
+ul>li>a{
+    transition: 0.5s;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.qq{
+    color: #1280d9;
+    padding: 7px;
+    border: 1px solid #1280d9;
+    border-radius: 3px;
+}
+
+.qq:hover{
+    border: 1px solid transparent;
+    background-color: #1280d9;
+    color: #fff;
+}
+
+
+
+li{
+    font-weight: 700;
+    padding: 10px 30px;
+}
+
+li:hover{
+    border: 1px solid #fff ;
+}
+
+li:last-child{
+    border: none;
+}
+
+main{
+    height: 255px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 38pt;
+    color: #fff;
+    line-height: 38px;
+    font-weight: 700;
+    font-family: 'Exo 2',Trebuchet MS,Segoe UI,sans-serif;
+}
+
+h3{
+    font-size: 20pt;
+    font-weight: 500;
+    color: #fff;
+    line-height: 42px;
+    max-width: 943px;
+    text-transform: uppercase;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    margin-top: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 400px;
+    padding-left: 10px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+form>button{
+    margin-top: 30px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 8px 20px;
+    background-color: #eebf4a;
+    color: black;
+    border: none;
+}
+
+
+.down_btn_container{
+    width: 100%;
+    height: 135px;
+    background-color: #378ffb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.down_btn_container>button{
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    font-size: 25px;
+    padding: 20px 15px;
+    color: #1280d9;
+}
+
+.down_btn_container>button:hover{
+    background-color: #1280d9;
+    color: white;
+    border: 2px solid white;
+}
+
+.down_text_container{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.down_text_container>p{
+    text-align: center;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: #333;
+    clear: both;
+    font-family: 'Exo 2',Trebuchet MS,Segoe UI,sans-serif;
+    text-transform: uppercase;
+    font-size: 28pt;
+    display: inline-block;
+    margin: 0 0 12px;
+}
